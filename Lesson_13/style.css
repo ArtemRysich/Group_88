@@ -1,0 +1,44 @@
+/* .box {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-black {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.item-green {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+}
+
+.item-red {
+  background-color: red;
+} */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  user-select: none;
+  list-style: none;
+}
+
+.item {
+  width: 300px;
+  border: 1px solid black;
+}
+
+
+.modal{
+    background-color: white;
+}
